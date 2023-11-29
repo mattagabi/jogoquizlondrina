@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Londrina Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <div id="start-screen" class="screen">
+            <h1>Conhecendo Londrina!</h1>
+            <button onclick="startQuiz()">Iniciar Quiz</button>
+        </div>
+        
+        <div id="quiz-screen" class="screen" style="display: none;">
+            <h2 id="question">Pergunta aqui?</h2>
+            <div id="options" class="options"></div>
+        </div>
+        
+        <div id="result-screen" class="screen" style="display: none;">
+            <h2 id="result">Seu resultado:</h2>
+            <button onclick="restartQuiz()">Reiniciar Quiz</button>
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
